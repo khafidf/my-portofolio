@@ -25,7 +25,7 @@ const Services = () => {
       >
         <Card
           icon={<MdOutlineComputer />}
-          description="Implementation ui/ux design to html css or react"
+          description="Implementation UI/UX design to HTML, CSS or ReactJs"
         />
         <Card icon={<RiPagesFill />} description="Make simple landing page" />
       </IconContext.Provider>

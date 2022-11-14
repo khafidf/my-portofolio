@@ -32,7 +32,7 @@ const Navbar = () => {
             <a href="#skill">Skills</a>
           </li>
           <li className="nav-primary">
-            <a href="#services">Sevices</a>
+            <a href="#services">Services</a>
           </li>
         </ul>
         <button className="btn-primary md:hidden">
