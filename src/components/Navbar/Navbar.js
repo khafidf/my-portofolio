@@ -1,4 +1,4 @@
-import Brand from "../assets/Brand.svg";
+import Brand from "../../assets/Brand.svg";
 import { IconContext } from "react-icons";
 import { FaTimes, FaBars } from "react-icons/fa";
 import { useState } from "react";
@@ -35,10 +35,12 @@ const Navbar = () => {
             <a href="#services">Sevices</a>
           </li>
         </ul>
-        <button className="btn-primary md:hidden">Contact Me</button>
+        <button className="btn-primary md:hidden">
+          <a href="https://wa.me/6285851645365">Contact Me</a>
+        </button>
       </div>
       <button className="btn-primary hidden md:visible md:my-auto md:flex">
-        Contact Me
+        <a href="https://wa.me/6285851645365">Contact Me</a>
       </button>
     </div>
   );

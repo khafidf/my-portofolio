@@ -1,4 +1,4 @@
-import Me from "../assets/Me.webp";
+import Me from "../../assets/Me.webp";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
@@ -32,14 +32,14 @@ const Header = () => {
       </div>
       <IconContext.Provider value={{ size: "1.8em" }}>
         <div className="flex justify-around pt-10 sm:col-start-2">
-          <a className="hover:scale-105" href="https://github.com/khafidf/">
-            <FaGithub />
-          </a>
           <a
             className="hover:scale-105"
             href="https://www.instagram.com/khafidfrm/"
           >
             <FaInstagram />
+          </a>
+          <a className="hover:scale-105" href="https://github.com/khafidf/">
+            <FaGithub />
           </a>
           <a
             className="hover:scale-105"
