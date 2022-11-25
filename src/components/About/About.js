@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div
-      className="my-4 grid grid-cols-2 gap-4 px-8 md:px-16 lg:my-8 lg:px-20 xl:my-16 xl:px-32 xxl:px-40"
+      className="my-4 grid w-1/3 grid-cols-2 gap-4 px-8 md:px-16 lg:my-8 lg:px-20 xl:my-16 xl:px-32 xxl:px-40"
       id="about"
     >
       <div className="col-span-2 text-center">
