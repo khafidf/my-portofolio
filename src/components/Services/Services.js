@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 const Services = () => {
   return (
     <div
-      className="my-4 px-2 text-center text-white sm:grid sm:grid-cols-3 md:px-4 lg:px-8 xl:px-12"
+      className="my-4 p-4 text-center text-white sm:grid sm:grid-cols-3 md:p-4 lg:p-8 xl:p-12"
       id="services"
     >
       <div className="sm:my-auto">

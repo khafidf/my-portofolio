@@ -6,7 +6,7 @@ import { SiTailwindcss, SiJavascript } from "react-icons/si";
 const Skill = () => {
   return (
     <div
-      className="bg-black py-4 text-center text-white sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-2 sm:px-4 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-2 lg:px-8"
+      className="bg-black p-4 text-center text-white sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-2 sm:px-4 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-2 lg:px-8"
       id="skill"
     >
       <div className="col-span-3">
@@ -20,40 +20,29 @@ const Skill = () => {
           style: { margin: "1em auto" },
         }}
       >
-        <div>
-          <Card title="HTML" description="Intermediate" icon={<FaHtml5 />} />
-        </div>
-        <div>
-          <Card title="CSS" description="intermediate" icon={<FaCss3Alt />} />
-        </div>
-        <div>
-          <Card
-            title="Tailwind CSS"
-            description="Beginner, and still learning"
-            icon={<SiTailwindcss />}
-          />
-        </div>
-        <div>
-          <Card
-            title="JavaScript"
-            description="Beginner, and still learning"
-            icon={<SiJavascript />}
-          />
-        </div>
-        <div>
-          <Card
-            title="ReactJs"
-            description="Beginner, and still learning"
-            icon={<FaReact />}
-          />
-        </div>
-        <div>
-          <Card
-            title="NodeJs"
-            description="Still learning"
-            icon={<FaNodeJs />}
-          />
-        </div>
+        <Card title="HTML" description="Intermediate" icon={<FaHtml5 />} />
+
+        <Card title="CSS" description="intermediate" icon={<FaCss3Alt />} />
+
+        <Card
+          title="Tailwind CSS"
+          description="Beginner, and still learning"
+          icon={<SiTailwindcss />}
+        />
+
+        <Card
+          title="JavaScript"
+          description="Beginner, and still learning"
+          icon={<SiJavascript />}
+        />
+
+        <Card
+          title="ReactJs"
+          description="Beginner, and still learning"
+          icon={<FaReact />}
+        />
+
+        <Card title="NodeJs" description="Still learning" icon={<FaNodeJs />} />
       </IconContext.Provider>
     </div>
   );
